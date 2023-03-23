@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T22:54:24 EDT" name="Default suite" finished-at="2023-03-19T22:56:11 EDT" duration-ms="107753">
+    <groups>
+    </groups>
+    <test started-at="2023-03-19T22:54:24 EDT" name="Default test" finished-at="2023-03-19T22:56:11 EDT" duration-ms="107753">
+      <class name="test.OpenSignUp">
+        <test-method is-config="true" signature="config()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:14 EDT" name="config" finished-at="2023-03-19T22:54:24 EDT" duration-ms="9445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:24 EDT" name="setup" finished-at="2023-03-19T22:54:24 EDT" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Synchronize()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:24 EDT" name="Synchronize" finished-at="2023-03-19T22:54:24 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Synchronize -->
+        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:25 EDT" name="BrowserConfig" finished-at="2023-03-19T22:54:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserConfig -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:25 EDT" name="testSignUp" data-provider="signup-data" finished-at="2023-03-19T22:54:55 EDT" duration-ms="30494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tanvir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@gmail1.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tanvir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="validations()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:55 EDT" name="validations" finished-at="2023-03-19T22:54:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:55 EDT" name="testSignUp" data-provider="signup-data" finished-at="2023-03-19T22:55:18 EDT" duration-ms="22986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ripna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz1@gmail2.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ripna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:54:55 EDT" name="BrowserConfig" finished-at="2023-03-19T22:54:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserConfig -->
+        <test-method is-config="true" signature="validations()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:55:18 EDT" name="validations" finished-at="2023-03-19T22:55:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:55:18 EDT" name="BrowserConfig" finished-at="2023-03-19T22:55:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserConfig -->
+        <test-method signature="testSignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:55:18 EDT" name="testSignUp" data-provider="signup-data" finished-at="2023-03-19T22:55:41 EDT" duration-ms="23064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz2@gmail3.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Poly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="validations()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:55:41 EDT" name="validations" finished-at="2023-03-19T22:55:41 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method is-config="true" signature="BrowserClosing()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:55:41 EDT" name="BrowserClosing" finished-at="2023-03-19T22:56:11 EDT" duration-ms="30186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClosing -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:test.OpenSignUp@57cf54e1]" started-at="2023-03-19T22:56:12 EDT" name="terminate" finished-at="2023-03-19T22:56:12 EDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- test.OpenSignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
