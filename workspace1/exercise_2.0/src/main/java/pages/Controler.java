@@ -91,7 +91,7 @@ public class Controler {
 	@BeforeClass
 	 public void Synchronize() {
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		act = new Actions(driver);
 	}
@@ -151,7 +151,7 @@ public class Controler {
        // System.out.println("Screenshot saved to: " + screenshotFile.getAbsolutePath());
 
 	    // Wait 30 seconds
-	    Thread.sleep(30000);
+	    Thread.sleep(3000);
 
 	    // Close the window and switch back to the original window
 	    driver.close();
