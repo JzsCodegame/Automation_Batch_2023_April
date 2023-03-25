@@ -95,22 +95,22 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>C:\Tools\workspace1\exercise_2.0\src\main\java</sourceDirectory>
-    <scriptSourceDirectory>C:\Tools\workspace1\exercise_2.0\src\main\scripts</scriptSourceDirectory>
-    <testSourceDirectory>C:\Tools\workspace1\exercise_2.0\src\test\java</testSourceDirectory>
-    <outputDirectory>C:\Tools\workspace1\exercise_2.0\target\classes</outputDirectory>
-    <testOutputDirectory>C:\Tools\workspace1\exercise_2.0\target\test-classes</testOutputDirectory>
+    <sourceDirectory>src\main\java</sourceDirectory>
+    <scriptSourceDirectory>src\main\scripts</scriptSourceDirectory>
+    <testSourceDirectory>src\test\java</testSourceDirectory>
+    <outputDirectory>target\classes</outputDirectory>
+    <testOutputDirectory>target\test-classes</testOutputDirectory>
     <resources>
       <resource>
-        <directory>C:\Tools\workspace1\exercise_2.0\src\main\resources</directory>
+        <directory>src\main\resources</directory>
       </resource>
     </resources>
     <testResources>
       <testResource>
-        <directory>C:\Tools\workspace1\exercise_2.0\src\test\resources</directory>
+        <directory>src\test\resources</directory>
       </testResource>
     </testResources>
-    <directory>C:\Tools\workspace1\exercise_2.0\target</directory>
+    <directory>target</directory>
     <finalName>exercise_2.0-0.0.1-SNAPSHOT</finalName>
     <pluginManagement>
       <plugins>
@@ -254,7 +254,7 @@
               <goal>site</goal>
             </goals>
             <configuration>
-              <outputDirectory>C:\Tools\workspace1\exercise_2.0\target\site</outputDirectory>
+              <outputDirectory>target\site</outputDirectory>
             </configuration>
           </execution>
           <execution>
@@ -264,7 +264,7 @@
               <goal>deploy</goal>
             </goals>
             <configuration>
-              <outputDirectory>C:\Tools\workspace1\exercise_2.0\target\site</outputDirectory>
+              <outputDirectory>target\site</outputDirectory>
             </configuration>
           </execution>
         </executions>
@@ -272,6 +272,6 @@
     </plugins>
   </build>
   <reporting>
-    <outputDirectory>C:\Tools\workspace1\exercise_2.0\target\site</outputDirectory>
+    <outputDirectory>target\site</outputDirectory>
   </reporting>
 </project>
