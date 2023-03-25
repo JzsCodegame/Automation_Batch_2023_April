@@ -26,7 +26,7 @@ public class SignUpData {
 	
 	@DataProvider (name ="signup-data")
 	public static Object[][] getLoginData() throws IOException {
-	    String excelPath = "C:\\Tools\\workspace1\\exercise_2.0\\TestData\\Testdata.xlsx";
+	    String excelPath = "TestData\\Testdata.xlsx";
 	    String sheetName = "SignUpData";
 	    String[] columnsToRetrieve = {"Username", "Password", "Day", "FirstName"}; // specify column names
 
