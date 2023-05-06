@@ -27,7 +27,7 @@ public class scannerInput {
        int a = in.nextInt();
        System.out.println(d);
 		   int b = in.nextInt();
-    		   
+    		int z = in.nextInt();   
 		System.out.println(add(a, b));
         System.out.println(Calculator.add(2.56, 2.56));
         System.out.println(add("Polymorphing Successfull", c.concat(" and Again")));
