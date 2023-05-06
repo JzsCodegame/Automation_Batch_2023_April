@@ -13,24 +13,29 @@ public class scannerInput {
 		return x+y;
 	}
 	
-	static String add(String a, String b) {
+	static String add(String a, String b, String z) {
 		System.out.println("Polymorphing Successfull");
-		return a+b;
+		return a+b+z;
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         String c = "Enter first number:";
         String d = "Enter the second number: ";
+        String z = "Enter the third number: ";
          in = new Scanner(System.in);
+         int a = in.nextInt();
          System.out.println(c);
-       int a = in.nextInt();
-       System.out.println(d);
-		   int b = in.nextInt();
-    		int z = in.nextInt();   
-		System.out.println(add(a, b));
-        System.out.println(Calculator.add(2.56, 2.56));
-        System.out.println(add("Polymorphing Successfull", c.concat(" and Again")));
+         int b = in.nextInt();
+             System.out.println(d);
+           int e = in.nextInt();
+             System.out.println(z);
+		
+             
+             
+        //System.out.println(add(a, b, e));
+        //System.out.println(Calculator.add(2.56, 2.56));
+        //System.out.println(add("Polymorphing Successfull", c.concat(" and Again")));
 	}
 
 }

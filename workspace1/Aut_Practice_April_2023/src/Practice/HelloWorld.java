@@ -16,11 +16,11 @@ public class HelloWorld {
 		
 		char letter = 'M';
 		
-		boolean rip = false;
+		boolean rip = true;
 		
 		String all = "A3030.50true";
 		
-		System.out.println("Try now   :" + value);
+		System.out.println("Try now   :" + rip);
 	
 	
 	}
