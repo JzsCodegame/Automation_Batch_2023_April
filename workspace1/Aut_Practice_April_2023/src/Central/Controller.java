@@ -1,18 +1,15 @@
 package Central;
 
-import Practice.Vehicle;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
-public class Controller extends Vehicle {
+public class Controller {
 
-	public Controller(String model, int year) {
-		super(model, year);
-		
-	}
+	public static WebDriver driver;
 
 	public static void main(String[] args) {
-		Controller x = new Controller("Bmw", 2023);
-		System.out.println(x.numberofWheels);
-		
-		
+		System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
+		driver = new EdgeDriver();
+		driver.get("https://www.google.com");
 	}
 }
