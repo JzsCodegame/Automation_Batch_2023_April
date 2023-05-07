@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class scannerInput {
 	static Scanner in;
-	static int add(int a, int b) {
-		return a+b;
+	static int add(int a, int b, int c) {
+		return a*b*c;
 	}
 	
 	static double add(double x, double y) {
@@ -23,17 +23,20 @@ public class scannerInput {
         String c = "Enter first number:";
         String d = "Enter the second number: ";
         String z = "Enter the third number: ";
+        String x = "The result of the sum is : ";
          in = new Scanner(System.in);
-         int a = in.nextInt();
+         
          System.out.println(c);
+          int a = in.nextInt();
+           System.out.println(d);
          int b = in.nextInt();
-             System.out.println(d);
+          System.out.println(z);
            int e = in.nextInt();
-             System.out.println(z);
+           System.out.println(x);
 		
              
              
-        //System.out.println(add(a, b, e));
+        System.out.println(add(a, b, e));
         //System.out.println(Calculator.add(2.56, 2.56));
         //System.out.println(add("Polymorphing Successfull", c.concat(" and Again")));
 	}

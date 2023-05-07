@@ -23,7 +23,12 @@ public class Calculator {
         int x = 6;
         int d = z + x;
 		
-        
+        int i = add(8, 2);
+          // i =      // = 8 which is int
+        while(i > 0) {
+			 System.out.println("Hello World awhile " + i);
+			 i--;
+		 }
         System.out.println(add(2, 2));
         System.out.println(Calculator.add(2.56, 2.56));
         System.out.println(add("Polymorphing Successfull", c.concat(" and Again")));

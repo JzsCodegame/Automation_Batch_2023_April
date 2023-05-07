@@ -6,16 +6,18 @@ public class IfElse {
 		// TODO Auto-generated method stub
        int temp = 32;
        int tempVa = 37;
-       boolean iswarm = !(temp > 20 && tempVa < 35);
+       boolean iswarm = (temp > 20 && tempVa > 35);
                     // not(true   and      false)
                     // not (false)
                     //  true
-       boolean ishot = !(temp > 20 || tempVa < 35);
+       boolean ishot = (temp > 20 || tempVa < 35);
                     // not   true
                     // false
       
-       if ((temp > 20 || tempVa < 35)) {
-    	   System.out.println("Its warm :"+ ishot);
+       if (temp != tempVa) {
+    	   for (int i = 0; i < 5; i++) {
+    	   System.out.println("Its warm :"+ iswarm);
+    	   }
        } else {
     	   System.out.println("False : Its cold outside");
        }
