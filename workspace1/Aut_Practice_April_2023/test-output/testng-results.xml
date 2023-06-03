@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-03T11:45:29 EDT" name="Default suite" finished-at="2023-06-03T11:45:44 EDT" duration-ms="14951">
+    <groups>
+    </groups>
+    <test started-at="2023-06-03T11:45:29 EDT" name="Default test" finished-at="2023-06-03T11:45:44 EDT" duration-ms="14951">
+      <class name="SeleniumTestMethods.Frames">
+        <test-method is-config="true" signature="SetupSuite()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:29 EDT" name="SetupSuite" finished-at="2023-06-03T11:45:29 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupSuite -->
+        <test-method is-config="true" signature="Testconfig()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:29 EDT" name="Testconfig" finished-at="2023-06-03T11:45:30 EDT" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testconfig -->
+        <test-method is-config="true" signature="Synchronize()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:30 EDT" name="Synchronize" finished-at="2023-06-03T11:45:31 EDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Synchronize -->
+        <test-method is-config="true" signature="BrowserConfig()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:31 EDT" name="BrowserConfig" finished-at="2023-06-03T11:45:31 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserConfig -->
+        <test-method signature="frames1()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:31 EDT" name="frames1" finished-at="2023-06-03T11:45:43 EDT" duration-ms="12725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frames1 -->
+        <test-method is-config="true" signature="validations()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:43 EDT" name="validations" finished-at="2023-06-03T11:45:43 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method is-config="true" signature="BrowserClosing()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:43 EDT" name="BrowserClosing" finished-at="2023-06-03T11:45:44 EDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClosing -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:SeleniumTestMethods.Frames@5f9b2141]" started-at="2023-06-03T11:45:44 EDT" name="terminate" finished-at="2023-06-03T11:45:44 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- SeleniumTestMethods.Frames -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
