@@ -3,18 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumTestMethods.Frames">
+      <class name="SeleniumTestMethods.handleWindows">
         <methods>
           <include name="validations"/>
           <include name="Synchronize"/>
           <include name="terminate"/>
           <include name="BrowserClosing"/>
           <include name="SetupSuite"/>
+          <include name="window"/>
           <include name="Testconfig"/>
-          <include name="frames1"/>
           <include name="BrowserConfig"/>
         </methods>
-      </class> <!-- SeleniumTestMethods.Frames -->
+      </class> <!-- SeleniumTestMethods.handleWindows -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

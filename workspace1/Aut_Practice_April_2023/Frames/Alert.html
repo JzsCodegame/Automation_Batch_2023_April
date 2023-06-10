@@ -1,0 +1,65 @@
+
+<html>
+<head>
+	<style>
+		#mycolor1 {color: blue;}    
+		.mycolor2 {color: blue;}
+		.textbox{background-color:yellow}
+	</style>
+	<title>Alert Demos</title>
+	<div  style="background-color:orange;text-align:center"><h3>Alert Demos</h3></div>
+	<script type="text/javascript" >    
+		function openAlert()
+		{
+				var txt = "You clicked on OK Button";
+    			alert("Hello World!");
+				document.getElementById("alrt").innerHTML = txt;
+		}
+		
+		function openConfirm() {
+			var txt;
+			var r = confirm("Do you wish to continue?");
+			if (r == true) {
+				txt = "You pressed OK!";
+			} else {
+			txt = "You pressed Cancel!";
+			}
+			document.getElementById("confrm").innerHTML = txt;
+		}
+		function myFunction() {
+		  var person = prompt("Please enter your name", "Srinivas");
+		  if (person != null) {
+			document.getElementById("prmpt").innerHTML =
+			"Hello " + person + "! How are you today?";
+		  }
+		}
+	</script>	
+	
+</head>
+<body>
+		<!--<form name="myForm"> -->
+			<p>Click the button to display a Alert box.</p>
+
+		<button name="btnAlert" onclick="openAlert()">Open Alert popup</button>
+
+		<p id="alrt"></p>
+<br><br><br>
+			
+			<p>Click the button to display a confirm box.</p>
+
+		<button name="btnConfirm" onclick="openConfirm()">Open Confirm Popup</button>
+
+		<p id="confrm"></p>
+
+<br><br><br>
+		
+		<p>Click the button to demonstrate the prompt box.</p>
+
+	<button name="btnPrompt" onclick="myFunction()">Open Prompt popup</button>
+
+	<p id="prmpt"></p>
+
+	      <!--</form>-->
+</body>
+ 
+</html>

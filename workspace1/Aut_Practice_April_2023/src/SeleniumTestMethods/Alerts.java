@@ -8,7 +8,7 @@ import Central.Controller;
 public class Alerts extends Controller {
 
 	
-	@Test
+	@Test(priority = 0)
 	public void alerts() throws InterruptedException {
 		// TODO Auto-generated method stub
 		
@@ -36,5 +36,17 @@ public class Alerts extends Controller {
 		System.out.println(driver.switchTo().alert().getText());
 		
 		driver.switchTo().alert().accept();
+	}
+	
+	
+	@Test(priority = 1)
+	
+	public void alerts2() throws InterruptedException{
+		
+		driver.get("C:\\Tools\\workspace1\\Aut_Practice_April_2023\\Frames\\Alert.html");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/button[1]")).click();
+	    Thread.sleep(2000);
+	    driver.switchTo().alert().accept();
 	}
 }

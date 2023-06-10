@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Multi Windows Demo</h2>
+
+<h4>Click the button to open a new browser window.</h4>
+
+<button id="nwindow1" onclick="myFunction()">New Window</button>
+
+<br> <br><br>
+
+<h4>Click the button to open a new Window window.</h4>
+
+<button id="nwindow1" onclick="myFunction2()">New Window</button>
+
+<br> <br><br>
+
+<h4>Click the button to open a new Tab window.</h4>
+
+<button id="nTab" onclick="myFunction1()">New Tab</button>
+<script>
+function myFunction() {
+  window.open("http://h2kinfosys.com", "", "width=1200,height=800");
+}
+function myFunction1() {
+  window.open("http://seleniumhq.org");
+}
+function myFunction2() {
+  window.open("http://travelocity.com", "", "width=1200,height=800");
+}
+</script>
+
+</body>
+</html>

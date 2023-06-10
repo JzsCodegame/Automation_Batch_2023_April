@@ -44,10 +44,10 @@ public class Controller {
 @BeforeSuite 
 	public void SetupSuite() {
 		//System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "chromedriver-112.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver-114.exe");
 		AppUrl = "https://automationexercise.com/";
 		options = new ChromeOptions();
-		//options.addArguments("--headless=new");
+		options.addArguments("--headless=new");
 }
  @BeforeTest
      public void Testconfig(){

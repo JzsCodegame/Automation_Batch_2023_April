@@ -38,7 +38,7 @@ public class Frames extends Controller {
 		 
 		// ArrayList <String> frames = new ArrayList <String>();
 		// frames.add("driver.switchTo().frame(\"iframe2\")");
-		 //driver.findElement(By.xpath("//iframe[@src='framenested3.htm']")).click(); // then we write the xpath---Rule 3
+		  // then we write the xpath---Rule 3
 		// System.out.printf(frames.get(0));
 		 
 		 
