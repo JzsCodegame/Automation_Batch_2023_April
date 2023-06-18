@@ -41,7 +41,7 @@ public class BasePage {
 		WebDriverManager.chromedriver().setup();
 		AppUrl = "https://automationexercise.com/";
 		options = new ChromeOptions();
-		//options.addArguments("--headless=new");
+		options.addArguments("--headless=new");
 }
 @BeforeTest
     public void Testconfig(){
