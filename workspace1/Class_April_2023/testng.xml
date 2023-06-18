@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="April_Batch_2023">
+  <test thread-count="5" name="Test_01">
+    <classes>
+      <class name="TestModel.OpenSignUp"/>
+       <class name="TestModel.SignUp"/>
+        <class name="TestModel.Test_SignUpLogin"/>
+    </classes>
+  </test> <!-- Test_01 -->
+</suite> <!-- April_Batch_2023 -->
