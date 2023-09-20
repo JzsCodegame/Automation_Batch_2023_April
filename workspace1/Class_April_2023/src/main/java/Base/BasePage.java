@@ -55,7 +55,7 @@ public class BasePage {
       public void Synchronize() {
 	//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-	  driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+	 driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	    driver.manage().window().maximize();
 
 
@@ -66,13 +66,13 @@ public class BasePage {
 
 	  login = new SignupPage(driver);
 	  fill = new FormFillPage(driver);
-		Ex = new WebDriverWait(driver, 15);
+	 Ex = new WebDriverWait(driver, 15);
 	}
  @AfterMethod()
 	public void validations(){
  	System.out.println("Validations succesfully");// We validate our code executions.
  	System.out.println("Method executed succesfully");
- 	//Ex = new WebDriverWait(driver, 10);
+ 	//Ex = new WebDriverWait(driver, 15);
  }
  @AfterTest()
 	public void BrowserClosing() {
