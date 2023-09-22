@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 
 import PageModels.FormFillPage;
 import PageModels.SignupPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 
@@ -38,10 +38,10 @@ public class BasePage {
 	public void SetupSuite() {
 		//System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
 		//System.setProperty("webdriver.chrome.driver", "chromedriver-114.exe");
-		WebDriverManager.chromedriver().setup();
+
 		AppUrl = "https://automationexercise.com/";
 		options = new ChromeOptions();
-		options.addArguments("--headless=new");
+		// options.addArguments("--headless=new");
 }
 @BeforeTest
     public void Testconfig(){
