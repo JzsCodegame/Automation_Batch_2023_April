@@ -20,7 +20,7 @@ public class autosuggest extends Controller {
 	//auto.closeBrowser();
 	}
 	public void suggestions() throws Exception {
-	//System.setProperty("webdriver.chrome.driver","C:\\Users\\jzo_0\\eclipse-workspace\\Dropdowns\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver","C:\\Users\\jzo_0\\eclipse-workspace\\Dropdowns\\chromedriver-windows.exe");
 		// driver = new ChromeDriver();
 		//driver.get("https://global.shopbakerhughes.com/");
 		driver.get("http://www.etsy.com/");

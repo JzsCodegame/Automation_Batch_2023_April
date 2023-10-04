@@ -145,7 +145,7 @@ public class datepicker extends Controller{
 	@Test(priority = 1)
 	public void dateTimePicker() throws InterruptedException{
 
-        //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "chromedriver-windows.exe");
 
         //WebDriver driver = new ChromeDriver();
 

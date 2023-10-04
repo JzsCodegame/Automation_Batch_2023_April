@@ -12,7 +12,7 @@ public class Frames extends Controller {
 		   
 	    // driver = new ChromeDriver();
 	       
-		// System.setProperty("webdriver.chrome.driver", "chromedriver.exe");	
+		// System.setProperty("webdriver.chrome.driver", "chromedriver-windows.exe");
 
 		 
 		 

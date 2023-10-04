@@ -20,7 +20,7 @@ public class practiceMethod extends Controller {
 				   
 			     //driver = new ChromeDriver();
 			       
-				 //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jzo_0\\eclipse-workspace\\SElenium_3\\chromedriver.exe");
+				 //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jzo_0\\eclipse-workspace\\SElenium_3\\chromedriver-windows.exe");
 				 
 				 WebDriverWait Ex =new WebDriverWait(driver, 5);
 

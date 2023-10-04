@@ -64,7 +64,7 @@ public class Controler {
 	 //       extentReports = new ExtentReports();
 	        //extentReports.attachReporter(htmlReporter);
 	
-	//System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver","chromedriver-windows.exe");
 		WebDriverManager.chromedriver().setup();
 		
 	AppUrl = "https://automationexercise.com/";

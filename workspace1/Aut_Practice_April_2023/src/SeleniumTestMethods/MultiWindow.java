@@ -14,7 +14,7 @@ public class MultiWindow extends Controller{
 		        
 				//driver = new ChromeDriver();
 			              
-					 //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jzo_0\\eclipse-workspace\\HandleWindows\\chromedriver.exe");
+					 //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jzo_0\\eclipse-workspace\\HandleWindows\\chromedriver-windows.exe");
 	
 					 //Execution of the Command  				//Location of the file\\
 					 

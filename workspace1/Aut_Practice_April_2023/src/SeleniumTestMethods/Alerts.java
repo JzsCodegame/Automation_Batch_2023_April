@@ -15,7 +15,7 @@ public class Alerts extends Controller {
 
 		//WebDriver driver = new ChromeDriver();
 
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\jzo_0\\eclipse-workspace\\alertPractice\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\jzo_0\\eclipse-workspace\\alertPractice\\chromedriver-windows.exe");
 		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
