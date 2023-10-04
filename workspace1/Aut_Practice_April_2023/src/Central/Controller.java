@@ -44,10 +44,13 @@ public class Controller {
 @BeforeSuite 
 	public void SetupSuite() {
 		//System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "chromedriver-114.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver-windows.exe");
+	    //System.setProperty("webdriver.chrome.driver", "chromedriver-mac.exe");
+	    // https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/mac-arm64/chrome-mac-arm64.zip
+	    // https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win64/chromedriver-win64.zip
 		AppUrl = "https://automationexercise.com/";
 		options = new ChromeOptions();
-		options.addArguments("--headless=new");
+	//	options.addArguments("--headless=new");
 }
  @BeforeTest
      public void Testconfig(){
