@@ -23,7 +23,17 @@ public class Actionsmethods extends Controller {
 		
 		//driver.get("http://spicejet.com");
 		
-		driver.navigate().refresh(); Thread.sleep(1000); 
+		driver.navigate().refresh(); Thread.sleep(1000); // refresh page
+
+		driver.manage().window().maximize(); Thread.sleep(1000); // maximize window
+
+		driver.manage().deleteAllCookies(); Thread.sleep(1000); // delete all cookies
+
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS); // page load timeout
+
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // implicit wait
+
+		Ex = new WebDriverWait(driver, 30); // explicit wait
 		
 		driver.findElement(By.id("divpaxinfo")).click(); Thread.sleep(1000);
 		
