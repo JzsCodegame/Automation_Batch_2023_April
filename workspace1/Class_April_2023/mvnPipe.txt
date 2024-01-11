@@ -1,20 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+  </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>Automation_Class</groupId>
   <artifactId>Class_April_2023</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>WebAppAutExercise</name>
-  <properties>
-    <maven.compiler.source>15</maven.compiler.source>
-    <maven.compiler.target>15</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-chrome-driver</artifactId>
       <version>4.12.1</version>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.datastax.oss</groupId>
@@ -77,22 +76,22 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\src\main\java</sourceDirectory>
-    <scriptSourceDirectory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\src\main\scripts</scriptSourceDirectory>
-    <testSourceDirectory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\src\test\java</testSourceDirectory>
-    <outputDirectory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\target\classes</outputDirectory>
-    <testOutputDirectory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\target\test-classes</testOutputDirectory>
+    <sourceDirectory>src\main\java</sourceDirectory>
+    <scriptSourceDirectory>src\main\scripts</scriptSourceDirectory>
+    <testSourceDirectory>src\test\java</testSourceDirectory>
+    <outputDirectory>target\classes</outputDirectory>
+    <testOutputDirectory>target\test-classes</testOutputDirectory>
     <resources>
       <resource>
-        <directory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\src\main\resources</directory>
+        <directory>src\main\resources</directory>
       </resource>
     </resources>
     <testResources>
       <testResource>
-        <directory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\src\test\resources</directory>
+        <directory>src\test\resources</directory>
       </testResource>
     </testResources>
-    <directory>C:\Users\jzo_0\eclipse-workspace\Automation_Batch_2023_April\workspace1\Class_April_2023\target</directory>
+    <directory>target</directory>
     <finalName>1.0-SNAPSHOT</finalName>
     <pluginManagement>
       <plugins>
@@ -226,6 +225,7 @@
             </goals>
             <configuration>
               <outputDirectory>target\site</outputDirectory>
+
             </configuration>
           </execution>
           <execution>
@@ -236,79 +236,18 @@
             </goals>
             <configuration>
               <outputDirectory>target\site</outputDirectory>
+
             </configuration>
           </execution>
         </executions>
-      </plugin>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M8</version>
-        <executions>
-          <execution>
-            <id>default-test</id>
-            <phase>test</phase>
-            <goals>
-              <goal>test</goal>
-            </goals>
-            <configuration>
-              <suiteXmlFiles>
-                <suiteXmlFile>testng.xml</suiteXmlFile>
-              </suiteXmlFiles>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-install-plugin</artifactId>
-        <version>3.1.0</version>
-        <executions>
-          <execution>
-            <id>default-install</id>
-            <phase>install</phase>
-            <goals>
-              <goal>install</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>3.0.0</version>
-        <executions>
-          <execution>
-            <id>default-deploy</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>deploy</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.12.1</version>
-        <executions>
-          <execution>
-            <id>default-site</id>
-            <phase>site</phase>
-            <goals>
-              <goal>site</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>target\site</outputDirectory>
-            </configuration>
-          </execution>
-          <execution>
-            <id>default-deploy</id>
-            <phase>site-deploy</phase>
-            <goals>
-              <goal>deploy</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>target\site</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
+        <configuration>
+          <outputDirectory>target\site</outputDirectory>
+
+        </configuration>
       </plugin>
     </plugins>
-</build>
+  </build>
+  <reporting>
+    <outputDirectory>target\site</outputDirectory>
+  </reporting>
 </project>

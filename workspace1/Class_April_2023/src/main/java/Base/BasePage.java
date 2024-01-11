@@ -2,6 +2,9 @@ package Base;
 import java.time.Duration;
 
 import java.util.concurrent.TimeUnit;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
